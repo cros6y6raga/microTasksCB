@@ -27,7 +27,6 @@ export const Map = (props: MapType) => {
                 })}
             </ul>
             {props.topCars.map((objectFromTopCars, index) => {
-                debugger
                 return (
                     <table key={index}>
                         <thead>
